@@ -1,0 +1,1890 @@
+body{
+ margin:0;
+}
+
+
+nav{
+    position: fixed;
+
+    width:100%;
+    height:75px;
+    border-bottom:1px solid black;
+     background-color: #fff;
+     z-index:10;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+    background: #333;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.logo{
+    position: absolute;
+    margin-top:8px;
+    width:58px;
+    margin-left:10px;
+}
+a{
+    cursor: pointer;
+}
+
+.nav-text{
+    position: absolute;
+    font-weight:700;
+    margin-left:75px;
+    margin-top:27px;
+    font-size:23px;
+    font-family: PT Root UI, Helvetica, Arial, sans-serif;
+    color:black;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+.firstlink{
+    color:black;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin-left:255px;
+    margin-top:30px;
+    width:200px;
+    
+}
+
+.firstlink:hover{
+    color:#8c1eff;
+}
+
+.secondlink{
+    color:black;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin-left:450px;
+    margin-top:30px;
+    width:200px;
+}
+
+.secondlink:hover{
+    color:#8c1eff;
+
+}
+
+
+
+.thirdlink{
+    color:black;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin-left:600px;
+    margin-top:30px;
+    width:200px;
+}
+
+.thirdlink:hover{
+    color:#8c1eff;
+}
+
+.fourthlink{
+    color:black;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin-left:720px;
+    margin-top:30px;
+    width:200px;
+}
+
+.fourthlink:hover{
+    color:#8c1eff;
+
+}
+
+.fifthlink{
+    color:black;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    margin-left:810px;
+    margin-top:30px;
+    width:200px;
+}
+
+.fifthlink:hover{
+    color:#8c1eff;
+
+}
+
+
+.sign-in{
+    cursor:pointer;
+    position: absolute;
+    padding:7px 30px;
+    margin-left:1200px;
+    font-size:16px;
+    background-color: #fff;
+    border:2px solid black;
+    margin-top:20px;
+    color:black;
+}
+
+.register{
+    cursor:pointer;
+    position: absolute;
+    padding:10px 30px;
+    margin-left:1350px;
+    font-size:16px;
+    background-color: #fff;
+    border:none;
+    margin-top:20px;
+    background-color: #8c1eff;
+    color:white;
+    
+}
+
+.menu {
+    width: 460px;
+    height: 300px;
+    position: absolute;
+    border: 1px solid rgb(162, 0, 255);
+    top: 75px;  /* margin-top-ის მაგივრად */
+    left: 85%;  /* მარჯვენა განლაგება უფრო მოქნილი რომ იყოს */
+    transform: translateX(-50%);  /* ცენტრში რომ იყოს */
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+    z-index: 9999999;
+    background-color: #fff;
+
+}
+
+.menu.show{
+visibility: visible;
+}
+
+.sign-text{
+    font-weight: 900;
+    font-size:40px;
+    font-family: "ABCGravityCyrillicVariable", sans-serif;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+
+.forgot{
+    font-size:16px;
+    font-weight:400;
+    margin-left:300px;
+}
+
+.email{
+    width:380px;
+    height:20px;
+    margin-top:20px;
+    margin-left:20px;
+    border:1px solid #8c1eff;
+    font-size:16px;
+    padding: 10px;
+}
+
+
+.password{
+    width:380px;
+    height:20px;
+    margin-top:20px;
+    margin-left:20px;
+    border:1px solid #8c1eff;
+    font-size:16px;
+    padding: 10px;
+}
+
+.card-btn{
+    width:400px;
+    height:40px;
+    margin-top:20px;
+    margin-left:20px;
+    border:1px solid #9f4cf9;
+    font-size:16px;
+    padding: 10px;
+    background-color: #cfa3fd;
+    color:white;
+    font-size:16px;
+    font-weight:500;
+}
+
+
+.page-first{
+    position: relative;
+    width:100%;
+    height:1005px;
+
+}
+
+
+.first-title{
+    font-size:60px;
+    width:600px;
+   
+    text-align:center;
+    height:300px;
+   
+    font-weight: 900;
+    letter-spacing: 0.52px;
+    line-height: 72px;
+    position:absolute;
+    margin-left:400px;
+    margin-top:100px;
+}
+
+.first-text{
+    position: absolute;
+    font-size:18px;
+    font-weight:400;
+    font-family: "Open Sans", sans-serif;
+    width:570px;
+    text-align:center;
+    margin-top:350px;
+    margin-left:400px;
+}
+
+.first-btn{
+    position:absolute;
+    font-weight:700;
+    font-size:16px;
+    padding:15px 30px;
+    border:none;
+    background-color: #8c1eff;
+    color:white;
+    cursor:pointer;
+    margin-left:600px;
+    margin-top:450px;
+}
+
+.first-image{
+    background-color: rgb(255, 234, 0);
+    width:200px;
+    height:250px;
+    position:absolute;
+    margin-top:450px;
+    margin-left:100px;
+}
+
+.first-icon{
+    position: absolute;
+    margin-top:460px;
+    font-size:25px;
+    margin-left:120px;
+}
+
+
+.first-icon2{
+    position: absolute;
+    font-size:30px;
+    margin-top:480px;
+    margin-left:150px;
+}
+
+.first-icon3{
+    position: absolute;
+    font-size:23px;
+    margin-top:540px;
+    margin-left:150px;
+}
+
+
+.first-icon4{
+    position: absolute;
+    font-size:25px;
+    margin-top:580px;
+    margin-left:200px;
+}
+
+
+.first-icon5{
+    position: absolute;
+    font-size:25px;
+    margin-top:580px;
+    margin-left:140px;
+}
+
+.first-icon6{
+    position: absolute;
+    font-size:25px;
+    margin-top:630px;
+    margin-left:200px;
+}
+
+
+
+.first-image2{
+    position: absolute;
+    width:220px;
+    height:250px;
+    margin-top: 550px;
+    margin-left:320px;
+}
+
+
+.first-text2{
+    position: absolute;
+    margin-top:600px;
+    margin-left:340px;
+    width:170px;
+    color:rgb(255, 187, 0);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.first-card1{
+    position: absolute;
+    width:220px;
+    height:200px;
+    background-color: rgb(255, 234, 0);
+    margin-left:560px;
+    margin-top:570px;
+}
+
+.first-card-text{
+    font-size:20px;
+    color:black;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+    width:200px;
+    margin-top:120px;
+    position: absolute;
+    margin-left:20px;
+}
+
+.change1{
+    color:#7b7429;
+}
+
+.first-icon1{
+    position: absolute;
+   font-size:80px;
+   color:white;
+   margin-top:30px;
+   margin-left:30px;
+}
+
+.first-icon7{
+    position: absolute;
+    font-size:80px;
+    color:white;
+    margin-left:100px;
+    margin-top:30px;
+}
+
+
+.first-card2{
+    position: absolute;
+    width:180px;
+    height:250px;
+    border-radius:20px;
+    background-color: #b7b7b7;
+    margin-top:520px;
+    margin-left:800px;
+}
+
+.first-card2-text{
+    font-size:20px;
+    color:black;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+    width:200px;
+    margin-top:20px;
+    margin-left:20px;
+    position: absolute;
+    margin-left:20px;
+}
+
+.change2{
+    color:#d6d6d6;
+}
+
+.first-card2-icon1{
+    width:60px;
+    height:60px;
+    border-radius:10px;
+    background-color: #fff;
+    position: absolute;
+    margin-top:100px;
+    margin-left:20px;
+}
+
+.fabedi{
+    font-size:25px;
+    position: absolute;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+.line1{
+    position:absolute;
+    width:25px;
+    height:5px;
+    background-color: #8c1eff;
+    border-radius:10px;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+.first-card2-icon2{
+    width:60px;
+    height:60px;
+    border-radius:10px;
+    background-color: #fff;
+    position: absolute;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.line2{
+    position:absolute;
+    width:25px;
+    height:5px;
+    background-color: rgb(255, 225, 0);
+    border-radius:10px;
+    margin-top:40px;
+    margin-left:20px;
+}
+
+.first-card2-icon3{
+    width:60px;
+    height:60px;
+    border-radius:10px;
+    background-color: #fff;
+    position: absolute;
+    margin-top:100px;
+    margin-left:20px;
+    margin-top:170px;
+}
+
+
+.first-card2-icon4{
+
+        width:60px;
+        height:60px;
+        border-radius:10px;
+        background-color: #fff;
+        position: absolute;
+        margin-top:100px;
+        margin-left:100px;
+        margin-top:170px;
+    
+}
+
+.first-card3{
+    position:absolute;
+    width:200px;
+    height:300px;
+    background-color: black;
+    margin-top:570px;
+    margin-left:1000px;
+}
+
+.first-card3-text1{
+    position: absolute;
+    width:170px;
+    color:rgb(255, 187, 0);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    margin-top:20px;
+    margin-left:20px;
+}
+
+.first-card3-text2{
+    position: absolute;
+    width:170px;
+    color:rgb(158, 158, 158);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    margin-top:80px;
+    margin-left:20px;
+}
+
+.first-card3-text3{
+    position: absolute;
+    width:170px;
+    color:rgb(158, 158, 158);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    margin-top:150px;
+    margin-left:20px;
+}
+
+.first-card3-text4{
+    margin-left:20px;
+    margin-top:220px;
+    position: absolute;
+    width:170px;
+    color:rgb(158, 158, 158);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.first-card3-text5{
+    margin-left:20px;
+    margin-top:250px;
+    position: absolute;
+    width:170px;
+    color:rgb(158, 158, 158);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.first-card4{
+    width:212px;
+    height:290px;
+    background-color: black;
+    position: absolute;
+    margin-top:500px;
+    margin-left:1220px;
+}
+
+.iphone-design{
+    width:190px;
+    height:150px;
+    background-color: rgb(255, 217, 0);
+    position:absolute;
+    margin-left:10px;
+    margin-top: 140px;
+    border-radius:30px 30px 0px 0px;
+  }
+
+
+  .camera{
+    width:70px;
+    height:20px;
+    border-radius:30px;
+    background-color: black; 
+    margin-left:60px;
+    margin-top:10px;
+  }
+
+  .first-card4-text1{
+    position: absolute;
+    width:170px;
+    color:rgb(255, 255, 255);
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    margin-left:20px;
+    margin-top:20px;
+  }
+
+  .computer{
+    width:400px;
+    height:200px;
+    position:absolute;
+    margin-left:550px;
+    margin-top:800px;
+  }
+
+
+  .first-image-text{
+    font-size:20px;
+    font-weight:400;
+    position:absolute;
+    margin-top:640px;
+    width:100px;
+    margin-left:110px;
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    line-height:20px;
+  }
+
+  .purple{
+    width:100%;
+    height:5px;
+    background-color: #8c1eff;
+    position: absolute;
+    margin-top:1000px;
+  }
+
+  .page-second{
+    position:relative;
+    background-color: black;
+    width:100%;
+    height:1905px;
+  }
+
+
+.second-text{
+    position: absolute;
+    color:rgb(255, 234, 0);
+    font-size:34px;
+    font-weight:700;
+    margin-top:100px;
+    margin-left:20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.second-text2{
+    font-size:40px;
+    color:white;
+    position: absolute;
+    font-weight:700;
+    font-family: "Open Sans", sans-serif;
+    margin-top:150px;
+    margin-left:20px;
+}
+
+
+.second-btn{
+    position: absolute;
+    padding:5px 25px;
+    border:1px solid white;
+    background-color: black;
+    color:white;
+    font-weight:500;
+    font-family: "Open Sans", sans-serif;
+    margin-top:160px;
+    margin-left:540px;
+    font-size:16px;
+}
+
+.second-card1-title{
+    color:white;
+    position: absolute;
+    margin-left:20px;
+    font-size:21px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.second-card1-line{
+    width:400px;
+    height:1.5px;
+    background-color: rgb(255, 208, 0);
+    margin-left:20px;
+    margin-top:40px;
+}
+
+.second-card1{
+    margin-top:300px;
+    position: absolute;
+}
+
+
+.second-card1-text{
+    color:white;
+    margin-top:20px;
+    width:400px;
+    margin-left:20px;
+    font-size:18px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.font-weight{
+    font-weight:700;
+}
+
+
+
+
+.second-card2-title{
+    color:white;
+    position: absolute;
+    margin-left:20px;
+    font-size:21px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.second-card2-line{
+    width:400px;
+    height:1.5px;
+    background-color: rgb(255, 208, 0);
+    margin-left:20px;
+    margin-top:40px;
+}
+
+.second-card2{
+    margin-top:300px;
+    margin-left:420px;
+    position: absolute;
+}
+
+
+.second-card2-text{
+    color:white;
+    margin-top:20px;
+    width:400px;
+    margin-left:20px;
+    font-size:18px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+
+
+.second-card3-title{
+    color:white;
+    position: absolute;
+    margin-left:20px;
+    font-size:21px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.second-card3-line2{
+    width:400px;
+    height:1.5px;
+    background-color: rgb(173, 141, 0);
+    margin-left:20px;
+    margin-top:40px;
+}
+
+.second-card3{
+    margin-top:500px;
+   
+    position: absolute;
+}
+
+
+.second-card3-text{
+    color:white;
+    margin-top:20px;
+    width:400px;
+    margin-left:20px;
+    font-size:18px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+
+
+
+
+.second-card4-title{
+    color:white;
+    position: absolute;
+    margin-left:20px;
+    font-size:21px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.second-card4-line2{
+    width:400px;
+    height:1.5px;
+    background-color: rgb(173, 141, 0);
+    margin-left:20px;
+    margin-top:40px;
+}
+
+.second-card4{
+    margin-top:500px;
+   margin-left:420px;
+    position: absolute;
+}
+
+
+.second-card4-text{
+    color:white;
+    margin-top:20px;
+    width:400px;
+    margin-left:20px;
+    font-size:18px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.image5{
+    width:650px;
+    height:550px;
+    position: absolute;
+    background-color: #dddddd;
+    margin-left:850px;
+    margin-top:100px;
+}
+
+
+.second-image1{
+    width:500px;
+    height:550px;
+    margin-left:50px;
+}
+
+
+
+
+.second-text3{
+    position: absolute;
+    color:rgb(255, 234, 0);
+    font-size:34px;
+    font-weight:700;
+    margin-top:800px;
+    margin-left:20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.second-text4{
+    font-size:40px;
+    color:white;
+    position: absolute;
+    font-weight:700;
+    font-family: "Open Sans", sans-serif;
+    margin-top:850px;
+    margin-left:20px;
+}
+
+
+.second-btn2{
+    position: absolute;
+    padding:5px 25px;
+    border:1px solid white;
+    background-color: black;
+    color:white;
+    font-weight:500;
+    font-family: "Open Sans", sans-serif;
+    margin-top:860px;
+    margin-left:480px;
+    font-size:16px;
+    cursor:pointer;
+}
+
+
+.second-card5{
+    position: absolute;
+    margin-top:950px;
+    margin-left:660px;
+}
+
+
+.second-card7{
+    position: absolute;
+    margin-left:660px;
+    margin-top:1150px;
+}
+
+.second-card6{
+    position: absolute;
+    margin-top:950px;
+    margin-left:1080px;
+}
+
+.second-card8{
+    position: absolute;
+    margin-left:1080px;
+    margin-top:1150px;
+}
+
+
+.image6{
+    position: absolute;
+    width:650px;
+    height:420px;
+    margin-top:950px;
+    margin-left:20px;
+}
+
+.second-card9{
+    position: absolute;
+    margin-top:1500px;
+    margin-left:200px;
+}
+
+.image7{
+    width:80px;
+     height:100px;
+
+}
+
+.second-card9-text1{
+    font-size:20px;
+    font-weight:700;
+    color: white;
+    margin-top:-100px;
+    margin-left:90px;
+    width:100px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.second-card9-text2{
+    font-family: "Open Sans", sans-serif;
+    font-weight:500;
+    font-size:18px;
+    color:white;
+    margin-left:90px;
+}
+
+.second-card10{
+    position: absolute;
+    margin-top:1500px;
+    margin-left:500px;
+}
+
+.second-card9-text3{
+    font-size:20px;
+    font-weight:700;
+    color: white;
+    margin-top:-100px;
+    margin-left:110px;
+    width:300px;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.image8{
+    width:100px;
+    height:100px;
+}
+
+.second-card9-text4{
+    font-family: "Open Sans", sans-serif;
+    font-weight:500;
+    font-size:18px;
+    color:white;
+    margin-left:110px;
+}
+
+.second-card11{
+    position: absolute;
+    margin-top:1500px;
+    margin-left:850px;
+}
+
+.second-card12{
+    position: absolute;
+    margin-top:1640px;
+    margin-left:350px;
+}
+
+.second-card9-text5{
+    font-size:20px;
+    font-weight:700;
+    color: white;
+    margin-top:-85px;
+    margin-left:150px;
+    width:300px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.second-card9-text6{
+    font-family: "Open Sans", sans-serif;
+    font-weight:500;
+    font-size:18px;
+    color:white;
+    margin-left:150px;
+}
+
+.image10{
+    width:150px;
+    height:80px;
+}
+
+.second-card13{
+    position: absolute;
+    margin-top:1640px;
+    margin-left:740px;
+}
+
+.image11{
+    width:80px;
+    height:80px;
+}
+
+
+.second-card9-text7{
+    font-size:20px;
+    font-weight:700;
+    color: white;
+    margin-top:-85px;
+    margin-left:100px;
+    width:300px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.second-card9-text8{
+    font-family: "Open Sans", sans-serif;
+    font-weight:500;
+    font-size:18px;
+    color:white;
+    margin-left:100px;
+}
+
+.purple1
+{
+    width:100%;
+    height:5px;
+    background-color: #8c1eff;
+    position: absolute;
+    margin-top:1900px;
+} 
+
+.page-third{
+    position:relative;
+    width:100%;
+    height:1000px;
+    background-color: #fff;
+}
+
+.third-card{
+    position:absolute;
+    width:650px;
+    height:350px;
+    border-radius:15px;
+    background-color: rgb(255, 208, 0);
+    margin-left:820px;
+    margin-top:80px;
+   
+}
+
+
+.triangle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, white, yellow);
+    clip-path: polygon(20% 0%, 100% 0%, 80% 100%, 0% 100%);
+    z-index:2;
+    margin-left:-10px;
+   
+}
+
+.youtube{
+    font-size:140px;
+    z-index:3;
+    position: absolute;
+    margin-left:240px;
+    margin-top:100px;
+}
+
+
+.third-text1{
+    font-size:30px;
+    font-weight:900;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 221, 0);
+    position: absolute;
+    margin-left:20px;
+    margin-top:90px;
+}
+
+.third-text2{
+  position: absolute;
+  margin-top:150px;
+  margin-left:20px;
+  font-size:50px;
+  font-weight:800;
+  width:800px;
+  font-family: "Open Sans", sans-serif;
+  line-height:60px;
+  letter-spacing:0.1px;
+}
+
+.third-text3{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight:400;
+    width:700px;
+    margin-left:20px;
+    margin-top:350px;
+
+}
+
+.third-text4{
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    font-weight:400;
+    width:750px;
+    margin-left:20px;
+    margin-top:415px;
+}
+
+.third-btn{
+    position: absolute;
+    margin-top:530px;
+    margin-left:20px;
+    padding: 15px 30px;
+    border:none;
+    background-color: #8c1eff;
+    color:white;
+    font-size:16px;
+    font-weight:600;
+}
+
+
+
+.third-card2{
+    position: absolute;
+    margin-top:700px;
+    margin-left:20px;
+
+}
+
+
+.third-card2-icon1{
+    font-size:70px;
+}
+
+
+.third-card2-text1{
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.third-card2-line{
+    width:350px;
+    height:1px;
+    background-color: #a2a2a2;
+    margin-top:10px;
+}
+
+.third-card2-text2{
+    margin-top:20px;
+    font-size:20px;
+    width:370px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+
+
+
+
+
+.third-card3{
+    position: absolute;
+    margin-top:700px;
+    margin-left:390px;
+
+}
+
+
+.third-card2-icon1{
+    font-size:70px;
+}
+
+
+.third-card2-text1{
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.third-card2-line{
+    width:350px;
+    height:1px;
+    background-color: #a2a2a2;
+    margin-top:10px;
+}
+
+.third-card2-text2{
+    margin-top:20px;
+    font-size:20px;
+    width:370px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+.third-card4{
+    position: absolute;
+    margin-top:700px;
+    margin-left:760px;
+}
+
+
+.third-card5{
+    position: absolute;
+    margin-top:700px;
+    margin-left:1140px;
+}
+
+
+.page-fourth{
+    position:relative;
+    width:100%;
+    height:1300px;
+    background-color: #fff;
+}
+
+.fourth-text1{
+    font-size:35px;
+    font-weight:1000;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 221, 0);
+    position: absolute;
+    margin-top:50px;
+    margin-left:550px;
+    letter-spacing:-0.5px;
+}
+
+
+.fourth-text2{
+    position: absolute;
+    font-size:55px;
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    margin-left:450px;
+    margin-top:150px;
+    font-weight:900;
+    width:650px;
+    letter-spacing: -2px;
+    line-height:50px;
+}
+
+.fourth-text3{
+    position: absolute;
+    font-size:20px;
+    font-weight:400;
+    font-family: "Open Sans", sans-serif;
+    color:black;
+    width:630px;
+    letter-spacing: -0.5px;
+    text-align: center;
+    margin-left:450px;
+    margin-top:300px;
+}
+
+.color-purple{
+    color:#8c1eff;
+}
+
+
+.fourth-image1{
+    position: absolute;
+    width:900px;
+    height:500px;
+    margin-top:500px;
+    margin-left:300px;
+    z-index:3;
+}
+
+
+.fourth-image{
+    position: absolute;
+    width:200px;
+    height:250px;
+    margin-left:20px;
+    margin-top:100px;
+}
+
+.fourth-image2{
+    position: absolute;
+    width:200px;
+    height:250px;
+    margin-left:100px;
+    margin-top:290px;
+}
+
+.fourth-image3{
+    position: absolute;
+    width:200px;
+    height:250px;
+    margin-top:750px;
+}
+
+.fourth-image4{
+    position: absolute;
+    width:200px;
+    height:250px;
+    margin-left:1150px;
+}
+
+.fourth-image5{
+    position: absolute;
+    width:200px;
+    height:250px;
+    margin-left:1319px;
+    margin-top:300px;
+}
+
+.fourth-image6{
+    position: absolute;
+    width:200px;
+    height:250px;
+    margin-left:1290px;
+    margin-top:700px;
+}
+
+.fourth-text4{
+    position: absolute;
+    font-size:70px;
+    font-weight:1000;
+    color:black;
+    margin-left:300px;
+    letter-spacing: -2px;
+    margin-top:1200px;
+}
+
+
+.page-fifth{
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color: rgb(255, 221, 0);
+}
+
+.fifth-text{
+    position: absolute;
+    font-size:60px;
+    font-weight:800;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: -3px;
+    margin-left:20px;
+    margin-top:100px;
+}
+
+
+.fifth-card1{
+    position: absolute;
+    margin-top:300px;
+    margin-left:20px;
+}
+
+.fifth-card1-img1{
+    width:60px;
+    height:60px;
+    background-color: #fff;
+    position: absolute;
+
+}
+
+
+.fifth-card1-text{
+    margin-left:70px;
+    position: absolute;
+    font-size:16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:bolder;
+    }
+
+.fifth-card1-text2{
+    margin-left:70px;
+    margin-top:20px;
+    position:absolute;
+    font-size:16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:bolder;
+}
+
+
+.fifth-card1-text2{
+  
+    position: absolute;
+}
+
+
+.fifth-card1-text3{
+    margin-top:80px;
+    width:450px;
+    font-family: "Open Sans", sans-serif;
+    font-size:20px;
+    letter-spacing: -0.5px;
+    line-height: 25px;
+}
+
+
+.fifth-card1-line{
+    position:absolute;
+    width:450px;
+    height:1px;
+    background-color: black;
+    margin-top:70px;
+
+}
+
+.fifth-card2{
+    position: absolute;
+    margin-top:300px;
+    margin-left:500px;
+
+}
+
+.fifth-card3{
+    position: absolute;
+    margin-top:300px;
+    margin-left:980px;
+}
+
+.purple2{
+    width:100%;
+    height:5px;
+    background-color: #8c1eff;
+    position: absolute;
+    margin-top:600px;
+}
+
+.page-sixth
+{
+    position: relative;
+    width:100%;
+    height:500px;
+    background-color: black;
+    margin-top:5px;
+}
+
+
+.sixth-img
+{
+    position: absolute;
+    width:650px;
+    height:470px;
+    margin-left:780px;
+    margin-top:30px;
+}
+
+.sixth-text1
+{
+    font-size:35px;
+    font-weight:1000;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 221, 0);
+    position: absolute;
+  letter-spacing:-0.5px;
+      margin-top:50px;
+    margin-left:20px;
+}
+
+.sixth-text2{
+    position: absolute;
+    font-size:55px;
+    font-family: "Open Sans", sans-serif;
+    color:rgb(255, 255, 255);
+    margin-left:20px;
+    margin-top:150px;
+    font-weight:900;
+    width:650px;
+    letter-spacing: -2px;
+    line-height:50px;
+}
+
+.sixth-text3{
+    position: absolute;
+    font-size:20px;
+    font-weight:400;
+    font-family: "Open Sans", sans-serif;
+    color:rgb(255, 255, 255);
+    width:550px;
+    letter-spacing: -0.5px;
+    text-align: left;
+    margin-left:20px;
+    margin-top:330px;
+
+
+}
+
+.sixth-btn{
+    position: absolute;
+    margin-top:410px;
+    margin-left:20px;
+    padding: 15px 30px;
+    border:none;
+    background-color: #8c1eff;
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+.purple3{
+    width:100%;
+    height:5px;
+    background-color: #8c1eff;
+    position: absolute;
+    margin-top:500px;
+}
+
+
+.page-seventh{
+    position:relative;
+    width:100%;
+    height:650px;
+    background-color: rgb(255, 221, 0);
+    margin-top:5px;
+}
+
+.seventh-btn{
+    position: absolute;
+    padding:5px 25px;
+    border:1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    font-weight:500;
+    font-family: "Open Sans", sans-serif;
+    margin-top:70px;
+    margin-left:1300px;
+    font-size:16px;
+}
+
+.seventh-title{
+    position: absolute;
+    font-size:35px;
+    font-weight:900;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing:-1px;
+    margin-left:20px;
+    margin-top:70px;
+}
+
+.seventh-img{
+    width:300px;
+    height:250px;
+}
+
+.seventh-card1{
+    position: absolute;
+    margin-left:20px;
+    margin-top:150px;
+}
+
+.seventh-card1-text1
+{
+font-size:18px;
+font-weight:400;
+font-family: "Open Sans", sans-serif;
+letter-spacing:-1px;
+margin-top:10px;
+}
+
+.seventh-card1-line{
+ width:300px;
+ height:1px;
+ background-color: black;
+ margin-top:30px;
+}
+
+.C-text{
+    margin-top:20px;
+}
+
+.text{
+    font-family: "Open Sans", sans-serif;
+   margin-left:10px;
+   margin-top:-10px;
+}
+
+.seventh-card2{
+    position: absolute;
+    margin-left:400px;
+    margin-top:150px;
+}
+
+.seventh-card3{
+    position: absolute;
+    margin-left:770px;
+    margin-top:150px;
+}
+
+.seventh-card1-text2{
+    font-size:18px;
+font-weight:400;
+font-family: "Open Sans", sans-serif;
+letter-spacing:-1px;
+margin-top:10px;
+width:300px;
+}
+
+.seventh-card1-line1
+{
+    width:300px;
+    height:1px;
+    background-color: black;
+    margin-top:6px;
+}
+
+
+.seventh-card4{
+    position: absolute;
+    margin-left:1150px;
+    margin-top:150px;
+}
+
+.seventh-last{
+    font-size:35px;
+    font-weight:900;
+    letter-spacing:-1px;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    margin-left:600px;
+    margin-top:600px;
+}
+
+
+.page-Eighth{
+    position: relative;
+    width:100%;
+    height:600px;
+    background-color: rgb(255, 225, 0);
+}
+
+.purple4{
+    width:100%;
+    height:5px;
+    background-color: #8c1eff;
+    position: absolute;
+    margin-top:600px;
+}
+
+.eight-img{
+    width:700px;
+    height:600px;
+   margin-left:20px;
+   position: absolute;
+}
+
+.Eight-text1{
+    font-size:60px;
+    font-weight:900;
+    font-family: "Open Sans", sans-serif;
+    position: absolute;
+    width:700px;
+    margin-left:800px;
+    margin-top:220px;
+}
+
+.eight-btn{
+    position: absolute;
+    padding:15px 35px;
+    border:none;
+    background-color:#8c1eff;
+    color:white;
+    font-size:16px;
+    font-weight:700;
+   margin-left:800px;
+   margin-top:420px;
+}
+
+
+.page-ninth{
+    position: relative;
+    width:100%;
+    height:950px;
+    background-color: black;
+    margin-top:5px;
+}
+
+
+.ninth-text1{
+    font-size:35px;
+    font-weight:1000;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 221, 0);
+    position: absolute;
+  letter-spacing:-0.5px;
+  margin-left:20px;
+  margin-top:70px;
+}
+
+.ninth-text2{
+
+    font-size:35px;
+    font-weight:1000;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(255, 221, 0);
+    position: absolute;
+  letter-spacing:-2px;
+  margin-left:20px;
+  margin-top:150px;
+}
+
+
+.ninth-card1{
+    position: absolute;
+    margin-left:20px;
+    margin-top:250px;
+}
+
+.ninth-card1-text1{
+    color:white;
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+
+.ninth-card1-text2{
+
+    width:250px;
+    color:white;
+    font-size:20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height:20px;
+    margin-top:10px;
+}
+
+.yellow{
+    color:rgb(255, 255, 97)
+}
+.ninth-card1-line{
+    width:300px;
+    height:1px;
+    background-color: rgb(255, 208, 0);
+    margin-top:10px;
+
+}
+
+.ninth-btn{
+    position: absolute;
+    padding:5px 20px;
+    border:1px solid white;
+    background-color: black;
+    color:white;
+    font-weight:500;
+    font-family: "Open Sans", sans-serif;
+ font-size:16px;
+ margin-top:20px;
+}
+
+.ninth-card2{
+    position: absolute;
+    margin-left:330px;
+    margin-top:250px;
+}
+
+.ninth-card3
+{
+    position: absolute;
+    margin-left:650px;
+    margin-top:250px;
+}
+
+.ninth-btn2{
+    position: absolute;
+    padding:5px 20px;
+    border:1px solid white;
+    background-color: black;
+    color:white;
+    font-weight:500;
+    font-family: "Open Sans", sans-serif;
+ font-size:16px;
+ margin-top:80px;
+}
+
+.ninth-card4
+{
+    position: absolute;
+    margin-left:970px;
+    margin-top:250px;
+}
+
+.ninth-card1-line2{
+    width:270px;
+    height:1px;
+    background-color: rgb(255, 208, 0);
+    margin-top:10px;
+}
+
+
+.ninth-card5
+{
+    position: absolute;
+    margin-left:1250px;
+    margin-top:250px;
+}
+
+
+.ninth-card1-line3{
+    width:220px;
+    height:1px;
+    background-color: rgb(255, 208, 0);
+    margin-top:10px;
+}
+
+
+.facebook{
+    position:absolute;
+    margin-top:650px;
+    color:white;
+    font-size:30px;
+    margin-left:20px;
+}
+
+.linkedin{
+    position:absolute;
+    margin-top:650px;
+    color:white;
+    font-size:30px;
+    margin-left:70px;
+}
+
+
+.carrer{
+    position: absolute;
+    margin-left:20px;
+    margin-top:700px;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    font-size:16px;
+}
+
+.blog{
+    position: absolute;
+    margin-left:20px;
+    margin-top:730px;
+    color:white;
+    font-family: "Open Sans", sans-serif;
+    font-size:16px;
+
+}
+
+
+.ninth-text3{
+    font-size:13px;
+    color:rgb(152, 152, 152);
+    text-align:left;
+    width:750px;
+    position: absolute;
+    margin-top:650px;
+    margin-left:700px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+
+}
+
+
+.ninth-text4{
+    font-size:13px;
+    color:rgb(152, 152, 152);
+    text-align:left;
+    width:750px;
+    position: absolute;
+    margin-top:820px;
+    margin-left:700px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+}
+
+
+.ninth-text5{
+    font-size:13px;
+    color:rgb(152, 152, 152);
+    text-align:left;
+    width:750px;
+    position: absolute;
+    margin-top:850px;
+    margin-left:700px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+}
+
+
+.ninth-text6
+{
+    font-size:13px;
+    color:rgb(152, 152, 152);
+    text-align:left;
+    width:750px;
+    position: absolute;
+    margin-top:880px;
+    margin-left:700px;
+    font-family: "Open Sans", sans-serif;
+    font-weight:400;
+}
